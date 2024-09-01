@@ -76,3 +76,15 @@ header {
   right: 0;
   z-index: 10;
 }
+
+h2 {
+  margin: 40px 0 0 0;
+}
+
+h2::after {
+  content: url("./images/line.png");
+}
+
+h3 {
+  font-size: 27px;
+}
