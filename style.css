@@ -88,3 +88,25 @@ h2::after {
 h3 {
   font-size: 27px;
 }
+
+#mission {
+  margin: 80px auto 80px auto;
+}
+
+#mission-flex {
+  display: flex;
+}
+
+#mission-flex > div {
+  width: 50%;
+  margin: 20px;
+}
+
+#mission-photo {
+  width: 100%;
+}
+
+#s2dgs {
+  margin-top: 50px;
+  width: 100%;
+}
