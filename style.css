@@ -454,7 +454,6 @@ footer {
   #nav-pc {
     display: none;
 }
-
 /* ハンバーガーメニュー */
 #menu-sp {
   display: block;
@@ -475,29 +474,30 @@ footer {
   width: 100%;
   display: none;
   z-index: 100;
-
-  /* ×ボタン */
-  #close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: transparent;
-    border: none;
-  }
-
-  #nav-sp nav ul {
-    padding-left: 0;
-  }
-
-  #nav-sp nav li {
-    list-style: none;
-  }
-
-  /* ナビゲーションメニュー用ロゴ */
-  #logo-sp {
-    margin: 80px 0 30px 20px;
-  } 
 }
+
+/* ×ボタン */
+#close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+#nav-sp nav ul {
+  padding-left: 0;
+}
+
+#nav-sp nav li {
+  list-style: none;
+}
+
+/* ナビゲーションメニュー用ロゴ */
+#logo-sp {
+  margin: 80px 0 30px 20px;
+} 
+
 /* ナビゲーションのリンクの装飾設定 */
 #nav-sp nav a {
   display: block;
@@ -517,4 +517,14 @@ footer {
    background-repeat: no-repeat;
    background-position: right top;
  }
+
+ #sns {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+#sns > a {
+  margin-right: 30px;
+}
 }
