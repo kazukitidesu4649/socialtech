@@ -489,6 +489,20 @@ footer {
   font-size: 16px;
 }
 
+/*ミッションページ S2DGsの設定 */
+#mission-s2dgs {
+  padding: 20px;
+}
+
+.mission-h2 {
+  color: #2710d5;
+  font-size: 40px;
+}
+
+.mission-h2::after {
+  content: none;
+}
+
 /* 画面幅が767px以下のとき */
 @media screen and (max-width: 767px) {
   /* スマートフォン用のスタイルを指定する */
