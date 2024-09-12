@@ -552,6 +552,41 @@ margin: 20px;}
   margin: 0;
 }
 
+  /*プロダクトページ*/
+  .product-main-inner {
+    background-image: url("./images/product/product-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  #product-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+
+  #product-title h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+    line-height: 1;
+  }
+
+  #product-title h1 span {
+    font-size: 26px;
+  }
+
+  #product-title > p {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+
 
 
 /* 画面幅が767px以下のとき */
