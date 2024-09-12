@@ -904,4 +904,43 @@ footer {
       font-size: 13px;
     }
 
+    /*　ミッションページ S2DGSの設定 */
+    .mission-h2 {
+      font-size: 38px;
+      margin: 0px;
+    }
+
+    .mission-h2::after {
+      content: none;
+    }
+
+    #mission-s2dgs > img {
+      width: 100%;
+    }
+
+    /*ミッションページ 5つのゴールの設定*/
+      #mission-five-goals {
+        flex-direction: column;
+      }
+
+      #mission-five-goals > div {
+        padding: 0;
+      }
+
+      #mission-five-goals .five-goals-image,
+      #mission-five-goals .five-goals-read {
+        width: 100%;
+        padding: 0;
+      }
+
+      #mission-five-goals .five-goals-read > div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .fivegoals-image-right,
+      .fivegoals-image-left {
+        align-self: center;
+      }
+
 }
