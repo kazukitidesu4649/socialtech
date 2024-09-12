@@ -587,6 +587,55 @@ margin: 20px;}
     font-size: 16px;
   }
 
+  /*セクション*/
+  .product-section {
+    display: flex;
+    padding: 20px 20px 0;
+  }
+
+  .product-section .product-section-img {
+    width: 450px;
+  }
+
+  .product-section-left .product-section-img img {
+    width: 100%;
+    padding: 0 40px 30px 0;
+    border-radius: 0 432px 0 0;
+  }
+
+  .product-section-left .product-read {
+    width: 50%;
+    flex-grow: 1;
+  }
+
+  .product-section-left .product-read p{
+    margin-bottom: 0;
+  }
+
+  .prroduct-section-right {
+    justify-content: space-between;
+  }
+
+  .product-section-right .product-section-img img {
+    width: 100%;
+    padding: 0 0 30p 40px;
+    border-radius: 432px 0 0 0;
+  }
+
+  .product-section-right .product-read {
+    width: 500px;
+  }
+
+  .product-h2 {
+    color: #2710d5;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .product-h3 {
+    font-size: 28px;
+    margin: 0;
+  }
 
 
 /* 画面幅が767px以下のとき */
@@ -976,6 +1025,41 @@ footer {
       .fivegoals-image-right,
       .fivegoals-image-left {
         align-self: center;
+      }
+
+      /*PRODUCT レスポンシブ対応*/
+
+      #product-main {
+        height: 256px;
+        margin-top: 4%;
+        position: relative;
+      }
+
+      .product-main-inner {
+        height: 80%;
+        background-size: cover;
+      }
+
+      #product-title {
+        width: 136px;
+        height: 256px;
+        position: absolute;
+        top: -10%;
+      }
+
+      #product-title h1 {
+        left: 20px;
+        font-size: 40px;
+      }
+
+      #product-title h1 span {
+        font-size: 18px;
+      }
+
+      #product-title > p {
+        top: 180px;
+        left: 20px;
+        font-size: 13px;
       }
 
 }
